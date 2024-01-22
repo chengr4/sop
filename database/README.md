@@ -1,5 +1,9 @@
 # Database
 
+- [Add Index](#add-index)
+- [Handle Deadlock](#handle-deadlock)
+- [Case: Database is slow](#case-database-is-slow)
+
 ## Add Index
 
 ```mermaid
@@ -33,6 +37,11 @@ Questions to ask yourself when adding Index:
     ```
 4. 是否真的需要「即時性」的資料?
 
+
+## Handle Deadlock
+
+```mermaid
+```
 
 ## Case: Database is slow
 
