@@ -38,12 +38,25 @@ Questions to ask yourself when adding Index:
 4. 是否真的需要「即時性」的資料?
 
 
+## Handle Concurrency
+
 ## Handle Deadlock
 
 ```mermaid
+flowchart TD
+    one[Step 1: Check the query called in the transaction]
+    two[Step 2: Check the order of the query]
+    three[Step 3: search lock monitor and use the query it gives]
+    one --> two
+    two --> three
 ```
 
-## Case: Database is slow
+For Step 1, Step 2:
+
+- You can give the transaction a name (from context for example) to identify queries
+- Remember only use "two" thread for testing
+
+## Case: Database is Slow
 
 ```mermaid
 ---
