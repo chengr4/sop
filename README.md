@@ -1,7 +1,7 @@
 # Standard Operation Procedure
 
 - [Database](database.md)
-- (System)(system.md)
+- [System](system.md)
 
 ## References
 
