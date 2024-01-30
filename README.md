@@ -1,6 +1,7 @@
 # Standard Operation Procedure
 
-- [Database](./database/)
+- [Database](database.md)
+- (System)(system.md)
 
 ## References
 
